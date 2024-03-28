@@ -74,7 +74,7 @@
     },
     {
       "number": 4,
-      "multiSelect": true,
+      "multiSelect": false,
       "scenario": "You are talking to a male colleague about their trip abroad with their partner. You refer to their partner as she and they correct you.",
       "answers": [
         {
