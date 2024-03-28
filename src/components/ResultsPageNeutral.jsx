@@ -7,10 +7,10 @@ export function ResultsPageNeutral() {
       <div className="flex items-center mr-10 mt-20">
         <img src={Robot} className="float-right m-4 w-80" />
         <p className="text-lg text-wrap ">
-          These are your results
+          ODYSSEY INTERMEDIATE
           <br />
           <br />
-          RESULTS are neutral
+          You are a consistently good ally but there is room for improvement.
         </p>
       </div>
     </div>
