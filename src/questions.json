@@ -95,30 +95,6 @@
           "score": 4
         }
       ]
-    },
-    {
-      "number": 5,
-      "multiSelect": false,
-      "scenario": "",
-      "answers": [
-        {
-          "option": "",
-          "score": 1
-        },
-        {
-          "option": "",
-          "score": 2
-        },
-        {
-          "option": "",
-          "score": 3
-        },
-
-        {
-          "option": "",
-          "score": 4
-        }
-      ]
     }
   ]
 }
