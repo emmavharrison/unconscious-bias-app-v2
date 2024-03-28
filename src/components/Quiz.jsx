@@ -1,4 +1,6 @@
-import { QuestionCard } from "./QuestionCard"
+import React from "react";
+import { QuizCardV2 } from "./QuizCardV2";
+import questionsData from "../questions.json";
 import { Button } from "@/components/ui/button"
 
 export const Quiz = () => {
@@ -17,7 +19,9 @@ export const Quiz = () => {
   return (
     <div>
       <Button onClick={previous} >previous</Button>
-      {}
+      {questionsData.questions.map((question, index) => (
+        <QuizCardV2 key={index} question={question} />
+      ))}
       <Button onClick={next} >next</Button>
     </div>
   )
