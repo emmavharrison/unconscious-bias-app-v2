@@ -6,10 +6,14 @@ export function ResultsPageGood() {
       <h1 className="text-4xl mt-8">ODYSSEY CHAMPION</h1>
       <div className="flex items-center mr-10 mt-20">
         <img src={Robot} className="float-right m-4 w-80" />
-        <div className="text-lg text-wrap ">
+        <div className="text-2xl text-left text-wrap ">
           <p>You are a fantastic ally! Why don't you...</p>
           <br />
-          <ul className="list-disc">
+          <ul className="list-disc text-left text-2xl w-9/12">
+            <li>
+              Visit the SheCodes website: <a href="https://shecancode.io/"></a>
+              https://shecancode.io/
+            </li>
             <li>Introduce & lead a D&I campaign in your workplace</li>
             <li>Mentor others who are starting their journey</li>
           </ul>

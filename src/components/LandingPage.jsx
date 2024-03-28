@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export function LandingPage() {
   return (
-    <div className="w-9/12 h-30 bg-cyan-300 rounded-3xl p-5 center">
+    <div className="w-9/12 h-30 2xl:h-50 bg-cyan-100 rounded-3xl p-5 center">
       <h1 className="text-4xl mt-8">Welcome to our Ally Odyssey</h1>
       <div className="flex items-center mr-10 mt-20">
         <img src={Robot} className="float-right m-4 w-80" />
@@ -23,7 +23,7 @@ export function LandingPage() {
       </div>
       <Link
         to="/quiz"
-        className="button-class bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 text-xl rounded-lg focus:outline-none focus:shadow-outline mt-20"
+        className="button-class bg-blue-600 hover:bg-blue-500 text-white font-bold py-2 px-4 text-xl rounded-lg focus:outline-none focus:shadow-outline mt-20"
       >
         Start my Ally Odyssey!
       </Link>

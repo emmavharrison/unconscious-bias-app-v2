@@ -6,10 +6,14 @@ export function ResultsPageNeutral() {
       <h1 className="text-4xl mt-8">ODYSSEY INTERMEDIATE</h1>
       <div className="flex items-center mr-10 mt-20">
         <img src={Robot} className="float-right m-4 w-80" />
-        <div className="text-lg text-wrap ">
-          <p>Good stuff, but room for improvement - consider...</p>
+        <div className="text-2xl text-left text-wrap ">
+          <p>
+            You are well on your way and doing a great job. While there's still
+            room for improvement, you should be pleased with your journey so
+            far. Here are some steps you could take:
+          </p>
           <br />
-          <ul className="list-disc">
+          <ul className="list-disc text-2xl text-left">
             <li>
               Taking part in D&I focused networking events - SheCanCode
               hackathons!
