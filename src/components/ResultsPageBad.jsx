@@ -1,6 +1,6 @@
 import Robot from "../assets/robot.png";
 
-export function ResultsPage() {
+export function ResultsPageBad() {
   return (
     <div className="w-9/12 h-30 bg-cyan-300 rounded-3xl p-5 center">
       <h1 className="text-4xl mt-8">Welcome to our Ally Odyssey</h1>
@@ -10,7 +10,7 @@ export function ResultsPage() {
           These are your results
           <br />
           <br />
-          RESULTS
+          RESULTS are bad
         </p>
       </div>
     </div>
