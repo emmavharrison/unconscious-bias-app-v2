@@ -19,22 +19,20 @@ export function QuizCardV2({ question, updateSelected }) {
     updateSelected(option.score)
   };
 
-
-
   return (
     <>
-      <Card>
-        <CardHeader>
-          <CardTitle>Question {number}</CardTitle>
-          <CardDescription>{scenario}</CardDescription>
+      <Card className="shadow-xl bg-cyan-100 py-4 pattern">
+        <CardHeader className="w-[70%] mx-auto">
+          <CardDescription>Question {number}</CardDescription>
+          <CardTitle>{scenario}</CardTitle>
         </CardHeader>
-        <CardContent>
-          <RadioGroup defaultValue="comfortable">
+        <CardContent className="w-[70%] mx-auto">
+          <RadioGroup>
           {answers.map((answer, index) => (
 
-            <div key={index} onClick={() => handleOptionSelect(answer)} className="flex space-x-2">
+            <div key={index} onClick={() => handleOptionSelect(answer)} className="flex space-x-4 p-4 bg-white rounded-md hover:bg-cyan-200 focus-within:bg-cyan-300 shadow">
               <RadioGroupItem value={answer.score} id={index} />
-              <Label className="flex justify-center" htmlFor={index}>{answer.option}</Label>
+              <Label className="" htmlFor={index}>{answer.option}</Label>
             </div>
           ))}
 

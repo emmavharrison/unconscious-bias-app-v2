@@ -11,7 +11,7 @@
 dist
 dist-ssr
 explorations
-node_modules
+node_modules/
 playground-temp
 temp
 TODOs.md
