@@ -74,7 +74,7 @@
     },
     {
       "number": 4,
-      "multiSelect": true,
+      "multiSelect": false,
       "scenario": "You are talking to a male colleague about their trip abroad with their partner. You refer to their partner as she and they correct you.",
       "answers": [
         {
@@ -92,30 +92,6 @@
 
         {
           "option": "Decide to not invite them to a football match because you think they won't be interested",
-          "score": 4
-        }
-      ]
-    },
-    {
-      "number": 5,
-      "multiSelect": false,
-      "scenario": "",
-      "answers": [
-        {
-          "option": "",
-          "score": 1
-        },
-        {
-          "option": "",
-          "score": 2
-        },
-        {
-          "option": "",
-          "score": 3
-        },
-
-        {
-          "option": "",
           "score": 4
         }
       ]
