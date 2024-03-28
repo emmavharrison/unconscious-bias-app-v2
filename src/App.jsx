@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 import { QuestionCard } from "./components/QuestionCard";
@@ -13,9 +14,11 @@ import {
 
 function App() {
   return (
-    <>
-      <QuestionCard />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/quiz" element={<QuestionCard />} />
+      </Routes>
+    </Router>
   );
 }
 
