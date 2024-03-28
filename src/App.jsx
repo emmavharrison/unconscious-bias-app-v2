@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import "./App.css";
-import { AlertDialogDemo } from "./components/AlertDialogDemo";
+import { QuestionCard } from "./components/QuestionCard";
 import {
   Card,
   CardContent,
@@ -9,25 +9,12 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
-
+} from "@/components/ui/card";
 
 function App() {
   return (
     <>
-      <Card>
-        <CardHeader>
-          <CardTitle>Card Title</CardTitle>
-          <CardDescription>Card Description</CardDescription>
-        </CardHeader>
-        <CardContent>
-          <p>Card Content</p>
-        </CardContent>
-        <CardFooter>
-          <p>Card Footer</p>
-        </CardFooter>
-      </Card>
-
+      <QuestionCard />
     </>
   );
 }
