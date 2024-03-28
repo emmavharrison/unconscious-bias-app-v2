@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "number": 1,
+      "multiSelect": false,
+      "scenario": "You are invited to networking event. When you arrive, you notice none of the other guests are women, refreshments are laid out on a large table and some of the snacks are served from boards laid on the stomach of two scantily-clad models lying on the table. What do you do?",
+      "answers": [
+        {
+          "option": "You feel uncomfortable but say nothing, this is an important networking event and you don't want to rock the boat.",
+          "score": 2
+        },
+        {
+          "option": "You think nothing of it, this is performance art",
+          "score": 1
+        },
+        {
+          "option": "You mention to the host that it makes you feel uncomfortable as you're aware of the lack of diversity in the industry and you attempt to discuss the repsonsibility you both have to be more inclusive.",
+          "score": 4
+        },
+
+        {
+          "option": "You do nothing at the time but after a fellow member at the event shares their concern with you, you email the host a few days later to express your discomfort.",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "multiSelect": false,
+      "scenario": "You're invited for afterwork drinks. Your Indian co-workers are sitting together at one end of the table and are not included in the conversations that other people are having.",
+      "answers": [
+        {
+          "option": "A: You didn't notice as you don't tend to be a very observant person and you were having a lot of fun that night.",
+          "score": 1
+        },
+        {
+          "option": "You do nothing at the time, but later on you make an effort to talk to one of them about this and ask them how they feel about it.",
+          "score": 2
+        },
+        {
+          "option": "During the evening, you make a pointed effort to engage them in conversation and include them in what is happening.",
+          "score": 4
+        },
+
+        {
+          "option": "You talk to another person in your team about this dynamic and what you could both do to change it",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "multiSelect": false,
+      "scenario": "A member of your team has just returned from parental leave. It's your job to organise team socials, which is usually an after-works drink. Do you:",
+      "answers": [
+        {
+          "option": "Think nothing of it, continue to arrange the usual after-work drinks",
+          "score": 1
+        },
+        {
+          "option": "You talk to this team member and raise your concern that they are missing out but when they brush it off and say they don't mind, you continue to arrange social in the same way as before.",
+          "score": 2
+        },
+        {
+          "option": "You raise at a team meeting that you'd like to change the after work social to be more inclusive and you suggest lunchtime gatherings instead.",
+          "score": 3
+        },
+
+        {
+          "option": "You talk to your manager about organising some of the socials as lunchtime events and when they agree you make this happen.",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "multiSelect": true,
+      "scenario": "You are talking to a male colleague about their trip abroad with their partner. You refer to their partner as she and they correct you.",
+      "answers": [
+        {
+          "option": "Apologise",
+          "score": 1
+        },
+        {
+          "option": "Laugh it off",
+          "score": 2
+        },
+        {
+          "option": "Make an excuse to do some other work",
+          "score": 3
+        },
+
+        {
+          "option": "Decide to not invite them to a football match because you think they won't be interested",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "multiSelect": false,
+      "scenario": "",
+      "answers": [
+        {
+          "option": "",
+          "score": 1
+        },
+        {
+          "option": "",
+          "score": 2
+        },
+        {
+          "option": "",
+          "score": 3
+        },
+
+        {
+          "option": "",
+          "score": 4
+        }
+      ]
+    }
+  ]
+}
