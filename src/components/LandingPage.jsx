@@ -1,4 +1,5 @@
 import Robot from "../assets/robot.png";
+import { Link } from "react-router-dom";
 
 export function LandingPage() {
   return (
@@ -20,9 +21,12 @@ export function LandingPage() {
           ableist, sexist without realising?
         </p>
       </div>
-      <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 text-xl rounded-lg focus:outline-none focus:shadow-outline mt-20">
-        Get my Ally Odyssey!
-      </button>
+      <Link
+        to="/quiz"
+        className="button-class bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 text-xl rounded-lg focus:outline-none focus:shadow-outline mt-20"
+      >
+        Start my Ally Odyssey!
+      </Link>
     </div>
   );
 }
