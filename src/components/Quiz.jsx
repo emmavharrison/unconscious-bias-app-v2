@@ -42,9 +42,9 @@ export const Quiz = () => {
 
   return (
     <div className="grid grid-cols-[10%_80%_10%] items-center gap-4">
-      <Button onClick={previous} >previous</Button>
+      <Button onClick={previous} >Previous</Button>
       {questionCards[currentQ]}
-      <Button onClick={next} >next</Button>
+      {currentQ < questionCards.length -1 ? <Button onClick={next} >Next</Button> : <Button>Submit</Button>}
     </div>
   )
 }
