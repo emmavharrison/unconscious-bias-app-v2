@@ -21,7 +21,7 @@ export const Quiz = () => {
   }
 
   return (
-    <div className="flex justify-center align-items-center gap-4">
+    <div className="grid grid-cols-[10%_80%_10%] items-center gap-4">
       <Button onClick={previous} >previous</Button>
       {questionCards[currentQ]}
       <Button onClick={next} >next</Button>
